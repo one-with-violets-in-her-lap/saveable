@@ -28,7 +28,7 @@ export async function getSampleMediaInfo(url: string) {
     )
 
     const rawSampleJson = samplePage.querySelector(
-        'script[data-component-name="SampleWaveformContainer"]',
+        'script[data-component-name="SampleHero"]',
     )?.textContent
 
     if (!rawSampleJson) {
